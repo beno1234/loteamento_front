@@ -1,89 +1,43 @@
-import "./styles.css";
+import React from "react";
 
-const Feature = () => {
+const Feature: React.FC = () => {
   return (
-    <section className="relative pt-20 pb-14 md:pt-28 md:pb-28 bg-zinc-100">
-      <div>
-        <img src="/01.png" className="absolute top-0 right-0" />
-      </div>
-      <div className="mx-auto container">
-        <div className="md:mb-24 mb-24 text-center">
-          <h3 className="text-xl font-semibold lg:text-4xl leading-tight">
-            Infraestrtura Completa
-          </h3>
-        </div>
-        <div className="flex flex-wrap justify-center">
-          <div className="w-full md:w-1/3 lg:w-1/5 p-4">
-            <div className="bg-green-200 rounded-lg shadow-lg p-6">
-              <div className="flex justify-center mb-4">
-                <img src="/torneira.png" className="w-24 h-24" />
-              </div>
-              <h4 className="text-xl font-semibold mb-2 text-center text-green-800">
-                Rede de água tratada
-              </h4>
-              <p className="text-gray-700">
-                Duis aute irure dolor in derit in voluptate velit esse cillum
-                dolore eu fugiat nulla
-              </p>
+    <section className="bg-image text-white py-52">
+      <div className="container mx-auto px-4">
+        <div className="flex flex-col items-center">
+          <h2 className="text-4xl text-white font-bold  mb-6">
+            Lote para venda ou aluguel
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div data-aos="flip-left" data-aos-duration="3000">
+              <img src="/1.webp" alt="Lote" className="rounded-lg shadow-lg" />
             </div>
-          </div>
-          <div className="w-full md:w-1/3 lg:w-1/5 p-4">
-            <div className="bg-green-200 rounded-lg shadow-lg p-6">
-              <div className="flex justify-center mb-4">
-                <img src="/torneira.png" className="w-24 h-24" />
-              </div>
-              <h4 className="text-xl font-semibold mb-2 text-center text-green-800">
-                Captação de águas pluviais
-              </h4>
-              <p className="text-gray-700">
-                Duis aute irure dolor in derit in voluptate velit esse cillum
-                dolore eu fugiat nulla
+            <div
+              className="flex flex-col justify-center"
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+            >
+              <p className="text-lg text-white  mb-4">
+                Apresentamos um lote exclusivo disponível para venda ou aluguel.
+                Localizado em uma área privilegiada, este lote oferece uma
+                oportunidade única para construir a casa dos seus sonhos ou
+                iniciar um novo empreendimento.
               </p>
-            </div>
-          </div>
-          <div className="w-full md:w-1/3 lg:w-1/5 p-4">
-            <div className="bg-green-200 rounded-lg shadow-lg p-6">
-              <div className="flex justify-center mb-4">
-                <img
-                  src="/estrada-com-linha-tracejada.png"
-                  className="w-24 h-24"
-                />
+              <ul className="list-disc text-white list-inside  mb-4">
+                <li>Área total: 500m²</li>
+                <li>Localização: Bairro XYZ</li>
+                <li>Infraestrutura completa</li>
+                <li>Segurança 24 horas</li>
+              </ul>
+              <div className="flex justify-center md:justify-start">
+                <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg mr-4">
+                  Saiba mais
+                </button>
+                <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg">
+                  Agendar visita
+                </button>
               </div>
-              <h4 className="text-xl font-semibold mb-2 text-center text-green-800">
-                Ruas 100% asfaltadas
-              </h4>
-              <p className="text-gray-700">
-                Duis aute irure dolor in derit in voluptate velit esse cillum
-                dolore eu fugiat nulla
-              </p>
-            </div>
-          </div>
-          <div className="w-full md:w-1/3 lg:w-1/5 p-4">
-            <div className="bg-green-200 rounded-lg shadow-lg p-6">
-              <div className="flex justify-center mb-4">
-                <img src="/esgoto.png" className="w-24 h-24" />
-              </div>
-              <h4 className="text-xl font-semibold mb-2 text-center text-green-800">
-                Rede de energia elétrica em led
-              </h4>
-              <p className="text-gray-700">
-                Duis aute irure dolor in derit in voluptate velit esse cillum
-                dolore eu fugiat nulla
-              </p>
-            </div>
-          </div>
-          <div className="w-full md:w-1/3 lg:w-1/5 p-4">
-            <div className="bg-green-200 rounded-lg shadow-lg p-6">
-              <div className="flex justify-center mb-4">
-                <img src="/poste-de-iluminacao.png" className="w-24 h-24" />
-              </div>
-              <h4 className="text-xl font-semibold mb-2 text-center text-green-800">
-                Rede de coleta de esgoto
-              </h4>
-              <p className="text-gray-700">
-                Duis aute irure dolor in derit in voluptate velit esse cillum
-                dolore eu fugiat nulla
-              </p>
             </div>
           </div>
         </div>

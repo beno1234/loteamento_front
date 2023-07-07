@@ -6,3 +6,8 @@
   font-family: Storytella;
   src: url(fonts/Storytella.otf);
 }
+
+.bg-image {
+  background-image: url(/fundo.webp);
+  background-position: bottom;
+}
