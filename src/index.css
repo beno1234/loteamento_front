@@ -11,3 +11,68 @@
   background-image: url(/fundo.webp);
   background-position: bottom;
 }
+
+.corner-shapes-wrap {
+  z-index: 1;
+  position: relative;
+  -webkit-clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 62%,
+    93% 70%,
+    93% 80%,
+    75% 100%,
+    66% 90%,
+    25% 100%,
+    7% 80%,
+    7% 70%,
+    0 62%
+  );
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 62%,
+    93% 70%,
+    93% 80%,
+    75% 100%,
+    66% 90%,
+    25% 100%,
+    7% 80%,
+    7% 70%,
+    0 62%
+  );
+}
+
+.corner-shapes-wrap::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+  background-color: #4a515b;
+}
+
+.corner-shapes-wrap .corner-shapes:after {
+  right: 7%;
+  -webkit-clip-path: polygon(100% 0, 0 100%, 100% 100%);
+  clip-path: polygon(100% 0, 0 100%, 100% 100%);
+}
+
+.corner-shapes-wrap .corner-shapes::before {
+  left: 7%;
+  -webkit-clip-path: polygon(10% 0, 0 100%, 100% 100%);
+  clip-path: polygon(0 0, 0 100%, 100% 100%);
+}
+
+.corner-shapes-wrap .corner-shapes::after,
+.corner-shapes-wrap .corner-shapes::before {
+  content: "";
+  bottom: 0;
+  width: 37%;
+  height: 40%;
+  position: absolute;
+  background: red;
+}

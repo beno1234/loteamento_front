@@ -1,6 +1,20 @@
 import React from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import { BiLogoWhatsapp } from "react-icons/bi";
 
 const Feature: React.FC = () => {
+  const carouselImages = ["1.webp", "2.webp", "3.webp"];
+  const settings = {
+    dots: true,
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    vertical: true,
+    verticalSwiping: true,
+  };
+
   return (
     <section className="bg-image text-white py-52">
       <div className="container mx-auto px-4">
@@ -10,7 +24,24 @@ const Feature: React.FC = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div data-aos="flip-left" data-aos-duration="3000">
-              <img src="/1.webp" alt="Lote" className="rounded-lg shadow-lg" />
+              <Slider
+                {...settings}
+                dots={false}
+                arrows={false}
+                infinite={true}
+                autoplay={true}
+                autoplaySpeed={3000}
+              >
+                {carouselImages.map((image, index) => (
+                  <div key={index}>
+                    <img
+                      src={image}
+                      alt={`Imagem ${index + 1}`}
+                      className="rounded-lg shadow-lg"
+                    />
+                  </div>
+                ))}
+              </Slider>
             </div>
             <div
               className="flex flex-col justify-center"
@@ -31,12 +62,12 @@ const Feature: React.FC = () => {
                 <li>Segurança 24 horas</li>
               </ul>
               <div className="flex justify-center md:justify-start">
-                <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg mr-4">
-                  Saiba mais
-                </button>
-                <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg">
-                  Agendar visita
-                </button>
+                <a href="https://api.whatsapp.com/send?phone=5534996440078">
+                  <button className="bg-green-500 flex justify-center items-center hover:bg-green-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg">
+                    <BiLogoWhatsapp size={23} style={{ marginRight: "10px" }} />
+                    Entre em contato
+                  </button>
+                </a>
               </div>
             </div>
           </div>

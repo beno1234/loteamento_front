@@ -1,4 +1,5 @@
 import React from "react";
+import { BiLogoWhatsapp } from "react-icons/bi";
 
 const AnotherSection: React.FC = () => {
   return (
@@ -26,7 +27,18 @@ const AnotherSection: React.FC = () => {
               <li>Posto de Gasolina</li>
               <li>Comércios</li>
             </ul>
+            <div className="pt-10">
+              <div className="flex justify-center md:justify-start">
+                <a href="https://api.whatsapp.com/send?phone=5534996440078">
+                  <button className="bg-green-500 flex justify-center items-center hover:bg-green-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg">
+                    <BiLogoWhatsapp size={23} style={{ marginRight: "10px" }} />
+                    Entre em contato
+                  </button>
+                </a>
+              </div>
+            </div>
           </div>
+
           <div className="md:w-1/2 mt-8 md:mt-0">
             <img
               src="/mapa.webp"
