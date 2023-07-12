@@ -14,7 +14,7 @@ const NewSection: React.FC = () => {
   ];
 
   return (
-    <section className="bg-gray-100 py-12">
+    <section className="bg-gray-100 py-12 px-40">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-10 text-center">
           Status da Obra

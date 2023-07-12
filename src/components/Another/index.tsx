@@ -4,7 +4,7 @@ import { BiLogoWhatsapp } from "react-icons/bi";
 const AnotherSection: React.FC = () => {
   return (
     <section
-      className="bg-gray-100 py-12"
+      className="bg-gray-100 py-12 px-40"
       data-aos="fade-up"
       data-aos-anchor-placement="top-bottom"
       data-aos-duration="2000"
