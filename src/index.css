@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @font-face {
   font-family: Storytella;
   src: url(fonts/Storytella.otf);
@@ -75,4 +81,9 @@
   height: 40%;
   position: absolute;
   background: red;
+}
+
+.bg-image-2 {
+  background-image: url(/fundo.webp);
+  background-position: right;
 }

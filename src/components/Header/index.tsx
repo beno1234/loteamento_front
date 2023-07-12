@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <div className=" relative h-screen">
+    <div className="bg-image relative h-screen">
       <div
         style={{
           backgroundImage: "url(/pexels-photo-12264621.jpeg)",

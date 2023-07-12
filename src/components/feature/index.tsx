@@ -16,7 +16,7 @@ const Feature: React.FC = () => {
   };
 
   return (
-    <section className="bg-image text-white py-52">
+    <section className="bg-image-2 text-white py-52">
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center">
           <h2 className="text-4xl text-white font-bold  mb-6">
