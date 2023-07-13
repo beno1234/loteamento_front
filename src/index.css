@@ -15,7 +15,7 @@
 
 .bg-image {
   background-image: url(/fundo.webp);
-  background-position: bottom;
+  background-position: center left;
 }
 
 .corner-shapes-wrap {
@@ -49,18 +49,6 @@
   );
 }
 
-.corner-shapes-wrap::before {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  opacity: 0.3;
-  background-color: #4a515b;
-}
-
 .corner-shapes-wrap .corner-shapes:after {
   right: 7%;
   -webkit-clip-path: polygon(100% 0, 0 100%, 100% 100%);
@@ -80,10 +68,49 @@
   width: 37%;
   height: 40%;
   position: absolute;
-  background: red;
+  background: rgba(255, 255, 255, 0.3);
 }
 
 .bg-image-2 {
   background-image: url(/fundo.webp);
-  background-position: right;
+  background-position: 100% 100%;
+}
+
+@media only screen and (max-width: 991px) {
+  .corner-shapes-wrap {
+    -webkit-clip-path: polygon(
+      0 0,
+      100% 0,
+      100% calc(100% - 90px),
+      93% calc(100% - 70px),
+      93% calc(100% - 45px),
+      75% 100%,
+      68% calc(100% - 25px),
+      25% 100%,
+      7% calc(100% - 45px),
+      7% calc(100% - 70px),
+      0 calc(100% - 90px)
+    );
+    clip-path: polygon(
+      0 0,
+      100% 0,
+      100% calc(100% - 90px),
+      93% calc(100% - 70px),
+      93% calc(100% - 45px),
+      75% 100%,
+      68% calc(100% - 25px),
+      25% 100%,
+      7% calc(100% - 45px),
+      7% calc(100% - 70px),
+      0 calc(100% - 90px)
+    );
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .corner-shapes-wrap .corner-shapes:after,
+  .corner-shapes-wrap .corner-shapes:before {
+    width: 34%;
+    height: 100px;
+  }
 }

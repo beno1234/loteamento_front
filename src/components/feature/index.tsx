@@ -5,7 +5,14 @@ import "slick-carousel/slick/slick-theme.css";
 import { BiLogoWhatsapp } from "react-icons/bi";
 
 const Feature: React.FC = () => {
-  const carouselImages = ["1.webp", "2.webp", "3.webp"];
+  const carouselImages = [
+    "1.webp",
+    "2.webp",
+    "3.webp",
+    "4.jpeg",
+    "5.jpeg",
+    "6.jpeg",
+  ];
   const settings = {
     dots: true,
     infinite: true,
@@ -13,14 +20,23 @@ const Feature: React.FC = () => {
     slidesToScroll: 1,
     vertical: true,
     verticalSwiping: true,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          vertical: false,
+          verticalSwiping: false,
+        },
+      },
+    ],
   };
 
   return (
-    <section className=" bg-image-2 text-white py-52 px-40">
-      <div className=" mx-auto px-4">
+    <section className="bg-[#102619] text-white py-52 px-4 md:px-8 lg:px-40">
+      <div className="max-w-screen-xl mx-auto">
         <div className="flex flex-col items-center">
-          <h2 className="text-4xl text-white font-bold  mb-6">
-            Lote para venda ou aluguel
+          <h2 className="text-4xl text-white font-bold mb-6">
+            Cardeal Empreendimentos
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div data-aos="flip-left" data-aos-duration="3000">
@@ -37,7 +53,7 @@ const Feature: React.FC = () => {
                     <img
                       src={image}
                       alt={`Imagem ${index + 1}`}
-                      className="rounded-lg shadow-lg"
+                      className="rounded-lg shadow-lg w-full"
                     />
                   </div>
                 ))}
@@ -49,13 +65,13 @@ const Feature: React.FC = () => {
               data-aos-easing="linear"
               data-aos-duration="1500"
             >
-              <p className="text-lg text-white  mb-4">
+              <p className="text-lg text-white mb-4">
                 Apresentamos um lote exclusivo disponível para venda ou aluguel.
                 Localizado em uma área privilegiada, este lote oferece uma
                 oportunidade única para construir a casa dos seus sonhos ou
                 iniciar um novo empreendimento.
               </p>
-              <ul className="list-disc text-white list-inside  mb-4">
+              <ul className="list-disc text-white list-inside mb-4">
                 <li>Área total: 500m²</li>
                 <li>Localização: Bairro XYZ</li>
                 <li>Infraestrutura completa</li>

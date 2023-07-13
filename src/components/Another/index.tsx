@@ -3,16 +3,11 @@ import { BiLogoWhatsapp } from "react-icons/bi";
 
 const AnotherSection: React.FC = () => {
   return (
-    <section
-      className="bg-gray-100 py-12 px-40"
-      data-aos="fade-up"
-      data-aos-anchor-placement="top-bottom"
-      data-aos-duration="2000"
-    >
-      <div className="container mx-auto px-4">
+    <section className="bg-gray-100 py-12 px-4 md:px-8 lg:px-16">
+      <div className="container mx-auto">
         <div className="flex flex-col md:flex-row items-center md:justify-between">
           <div className="md:w-1/2">
-            <h2 className="text-4xl font-bold text-gray-800 mb-6">
+            <h2 className="text-4xl font-bold text-gray-800 mb-6 text-center md:text-left">
               Nosso Loteamento
             </h2>
             <p className="text-lg text-gray-700 mb-8">
@@ -43,7 +38,8 @@ const AnotherSection: React.FC = () => {
             <img
               src="/mapa.webp"
               alt="Loteamento"
-              className="rounded-lg shadow-lg"
+              className="rounded-lg shadow-lg mx-auto md:mx-0"
+              style={{ maxWidth: "100%" }}
             />
           </div>
         </div>
