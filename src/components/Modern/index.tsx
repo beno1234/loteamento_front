@@ -3,7 +3,7 @@ import { BiLogoWhatsapp } from "react-icons/bi";
 
 const ModernSection: React.FC = () => {
   return (
-    <section className="bg-image py-12 px-4 md:px-40" data-aos="fade-right">
+    <section className="bg-[#110b0d] py-12 px-4 md:px-40" data-aos="fade-right">
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row items-center md:justify-between">
           <div className="md:w-1/2">
