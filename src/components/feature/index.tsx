@@ -66,10 +66,19 @@ const Feature: React.FC = () => {
               data-aos-duration="1500"
             >
               <p className="text-lg text-white mb-4">
-                Apresentamos um lote exclusivo disponível para venda ou aluguel.
-                Localizado em uma área privilegiada, este lote oferece uma
-                oportunidade única para construir a casa dos seus sonhos ou
-                iniciar um novo empreendimento.
+                A Cardeal Empreendimentos tem mais de 15 anos de experiência no
+                mercado imobiliário, especializada em loteamentos e condomínios
+                fechados. Nosso objetivo é oferecer projetos que atendam ao
+                "Índice Cardeal", um equilíbrio ideal entre soluções inovadoras,
+                qualidade excepcional e preços justos para nossos clientes,
+                parceiros e comunidade.
+              </p>
+              <p className="text-lg text-white mb-4">
+                Com loteamentos em diversas cidades e altas taxas de vendas,
+                somos uma referência no mercado imobiliário, e estamos sempre
+                aprimorando nossos serviços e projetos para proporcionar o
+                melhor para os nossos clientes, parceiros e para a sociedade
+                como um todo.
               </p>
               <ul className="list-disc text-white list-inside mb-4">
                 <li>Área total: 500m²</li>

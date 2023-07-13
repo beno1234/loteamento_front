@@ -7,6 +7,9 @@ import Header from "./components/Header";
 import ModernSection from "./components/Modern";
 import NewSection from "./components/Timeline";
 import Feature from "./components/feature";
+import WhatsAppButton from "./components/whats/whats";
+import BackToTopButton from "./components/back/back";
+import PricingSection from "./components/Price/Price";
 
 function App() {
   AOS.init();
@@ -14,11 +17,14 @@ function App() {
   return (
     <>
       <Header />
+      <PricingSection />
       <Feature />
       <NewSection />
       <AnotherSection data-aos="flip-left" />
       <ModernSection data-aos="fade-right" />
       <Footer />
+      <WhatsAppButton />
+      <BackToTopButton />
     </>
   );
 }
