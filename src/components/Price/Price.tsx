@@ -3,7 +3,7 @@ import { BiLogoWhatsapp } from "react-icons/bi";
 
 const PricingSection: React.FC = () => {
   return (
-    <section className="py-12 px-4 md:px-40 bg-[#102619]">
+    <section className="py-2 px-4 md:px-40 bg-[#102619]">
       <div className="container mx-auto">
         <div className="flex flex-col items-center">
           <h2 className="text-4xl text-white font-bold mb-6">Parcelas</h2>
