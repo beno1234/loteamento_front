@@ -16,7 +16,7 @@ const PricingSection: React.FC = () => {
           </div>
           <button className="flex justify-center items-center bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-3xl shadow-lg">
             <BiLogoWhatsapp size={23} style={{ marginRight: "10px" }} />
-            QUERO GARANTIR MEU LOTE
+            QUERO GARANTIR O MEU LOTE
           </button>
         </div>
       </div>
