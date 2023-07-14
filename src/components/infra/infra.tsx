@@ -10,19 +10,19 @@ const InfrastructureSection = () => {
           </h2>
           <div className="flex flex-col md:flex-row md:justify-center md:gap-10">
             <div className="flex flex-col items-center mb-6 md:mb-0">
-              <FaTint className="text-6xl text-blue-500 mb-4" />
+              <FaTint className="text-6xl text-white mb-4" />
               <h3 className="text-xl font-semibold text-white">
                 Água, esgoto e drenagem
               </h3>
             </div>
             <div className="flex flex-col items-center mb-6 md:mb-0">
-              <FaBolt className="text-6xl text-yellow-500 mb-4" />
+              <FaBolt className="text-6xl text-white mb-4" />
               <h3 className="text-xl font-semibold text-white">
                 Energia elétrica e iluminação
               </h3>
             </div>
             <div className="flex flex-col items-center">
-              <FaRoad className="text-6xl text-red-500 mb-4" />
+              <FaRoad className="text-6xl text-white mb-4" />
               <h3 className="text-xl font-semibold text-white">
                 Asfalto, guias e sarjetas
               </h3>
