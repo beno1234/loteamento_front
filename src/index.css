@@ -153,3 +153,17 @@
 .pulsating-animation {
   animation: pulsate 1s ease-in-out infinite;
 }
+
+@media screen and (min-width: 768px) {
+  .data-contact {
+    flex-wrap: wrap;
+    max-height: 80px;
+  }
+}
+
+.data-contact {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  gap: 15px;
+}
