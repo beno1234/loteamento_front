@@ -11,15 +11,15 @@ const Header = () => {
       >
         <div className="corner-shapes"></div>
         <div className="absolute inset-0 bg-black opacity-50"></div>
-        <div className="relative h-full flex  ">
-          <div className="container mx-auto text-center">
-            <div className="mt-0 pt-0">
+        <div className="relative    ">
+          <div className="mx-auto text-center">
+            <div className="mb-0">
               <img
                 src="/logoAmazonas2.png"
-                className="mx-auto w-[50%]"
+                className="mx-auto w-[40%] mb-0"
                 alt="Logo Amazonas"
               />
-              <h2 className="text-white text-4xl font-bold mt-4">
+              <h2 className="text-white text-4xl font-bold ">
                 O lugar perfeito para construir os seus sonhos. <br />
                 Lançamento em breve!
               </h2>
