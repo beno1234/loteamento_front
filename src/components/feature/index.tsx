@@ -32,7 +32,7 @@ const Feature: React.FC = () => {
   };
 
   return (
-    <section className="bg-[#102619] text-white py-52 px-4 md:px-8 lg:px-40">
+    <section className="bg-[#102619] text-white py-32 px-4 md:px-8 lg:px-40">
       <div className="max-w-screen-xl mx-auto">
         <div className="flex flex-col items-center">
           <h2 className="text-4xl text-white font-bold mb-6">
