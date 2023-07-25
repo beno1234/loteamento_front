@@ -19,11 +19,11 @@ function App() {
     <>
       <Header />
       <PricingSection />
+      <InfrastructureSection />
       <Feature />
       <NewSection />
       <AnotherSection data-aos="flip-left" />
       <ModernSection data-aos="fade-right" />
-      <InfrastructureSection />
       <Footer />
       <WhatsAppButton />
       <BackToTopButton />

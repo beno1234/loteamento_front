@@ -44,7 +44,7 @@ const Footer = () => {
             <div className="flex flex-col data-contact">
               <div className="flex items-center mb-2">
                 <AiOutlineMail className="text-2xl mr-2" />
-                <p className="text-xl">
+                <p className="text-base md:text-xl">
                   financeiro@empreendimentoscardeal.com.br
                 </p>
               </div>
@@ -56,11 +56,11 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex justify-between mt-8">
+        <div className="block text-center md:flex md:justify-around mt-16">
           <p className="text-sm">
             © 2023 CARDEAL EMPREENDIMENTOS - TODOS OS DIREITOS RESERVADOS.
           </p>
-          <p className="text-sm">Criado por: Bmouse Productions</p>
+          <p className="text-sm pt-5 md:pt-0">Criado por: Bmouse Productions</p>
         </div>
       </div>
     </footer>
