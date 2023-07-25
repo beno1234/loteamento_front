@@ -45,7 +45,9 @@ const Footer = () => {
             <div className="flex flex-col data-contact">
               <div className="flex items-center mb-2">
                 <AiOutlineMail className="text-2xl mr-2" />
-                <p className="text-xl">flavia@empreendimentoscardeal.com.br</p>
+                <p className="text-xl">
+                  financeiro@empreendimentoscardeal.com.br
+                </p>
               </div>
               <div className="flex items-center">
                 <AiOutlineClockCircle className="text-2xl mr-2" />

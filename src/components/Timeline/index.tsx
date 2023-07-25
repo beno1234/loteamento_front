@@ -5,9 +5,9 @@ import "slick-carousel/slick/slick-theme.css";
 
 const NewSection: React.FC = () => {
   const progressData = [
-    { title: "Abertura das ruas", percentage: 100 },
-    { title: "Terraplanagem", percentage: 100 },
-    { title: "Drenagem Pluvial", percentage: 100 },
+    { title: "Abertura das ruas", percentage: 0 },
+    { title: "Terraplanagem", percentage: 0 },
+    { title: "Drenagem Pluvial", percentage: 0 },
     { title: "Rede de Água", percentage: 0 },
     { title: "Rede de Esgoto", percentage: 0 },
     { title: "Pavimentação", percentage: 0 },

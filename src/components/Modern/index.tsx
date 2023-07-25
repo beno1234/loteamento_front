@@ -12,7 +12,7 @@ const ModernSection: React.FC = () => {
             </h2>
             <p className="text-lg md:w-2/3 text-white mb-8 text-center md:text-left">
               É a sua chance de comprar um lote financiado e com entrada
-              facilitada! Parcelas a partir de R$398,00 mensais.
+              facilitada!
             </p>
             <div className="flex justify-center md:justify-start mb-8">
               <a
@@ -34,14 +34,7 @@ const ModernSection: React.FC = () => {
             </div>
           </div>
           <div className="md:w-1/2 mt-8 md:mt-0 flex justify-center items-center">
-            <iframe
-              title="Google Maps"
-              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3132.702249198765!2d-44.96735444147276!3d-19.864150113306774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTnCsDUxJzUwLjAiUyA0NMKwNTcnNTYuMiJX!5e0!3m2!1spt-BR!2sbr!4v1680097954128!5m2!1spt-BR!2sbr"
-              className="w-full h-full md:w-4/5 md:h-96 rounded-md shadow-lg"
-              frameBorder="0"
-              style={{ border: 0 }}
-              allowFullScreen
-            ></iframe>
+            <img src="/gearth.png" />
           </div>
         </div>
       </div>
