@@ -58,16 +58,16 @@ const Price: React.FC = () => {
     }
   };
   return (
-    <section className="bg-[#102619] p-16">
-      <div className="p-8 max-w-md mx-auto  rounded-lg ">
-        <h2 className="text-2xl md:text-3xl font-bold text-white mb-8">
+    <section className="bg-[#102619] p-4 md:p-8 lg:p-16">
+      <div className="p-4 md:p-8 max-w-md mx-auto rounded-lg">
+        <h2 className="text-xl md:text-2xl font-bold text-white mb-6 md:mb-8">
           Deseja adquirir o seu lote assim que o loteamento for lançado?
         </h2>
-        <h2 className="text-white mb-5 font-bold">
+        <h2 className="text-white mb-4 font-bold">
           Inscreva-se no formulário abaixo para ser informado das últimas
           notícias sobre o Residencial Amazonas!
         </h2>
-        <form className="space-y-6" onSubmit={handleSubmit}>
+        <form className="space-y-4 md:space-y-6" onSubmit={handleSubmit}>
           <div>
             <label htmlFor="email" className="block text-white font-bold">
               Endereço de e-mail

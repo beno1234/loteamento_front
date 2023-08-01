@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-8 px-4">
       <div className="container mx-auto">
-        <div className="text-center mb-6">
+        <div className="text-center mb-6 mx-auto md:w-3/4">
           <h3 className="text-2xl font-bold mb-4">Cardeal Empreendimentos</h3>
           <p className="text-lg text-left mb-4">
             A Cardeal Empreendimentos tem mais de 15 anos de experiência no

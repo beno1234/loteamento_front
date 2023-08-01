@@ -34,7 +34,7 @@ const ModernSection: React.FC = () => {
             </div>
           </div>
           <div className="md:w-1/2 mt-8 md:mt-0 flex justify-center items-center">
-            <img src="/gearth.png" />
+            <img src="/MONTAGEM-02.webp" />
           </div>
         </div>
       </div>
