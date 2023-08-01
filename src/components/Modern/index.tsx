@@ -1,5 +1,4 @@
 import React from "react";
-import { BiLogoWhatsapp } from "react-icons/bi";
 
 const ModernSection: React.FC = () => {
   return (
@@ -22,14 +21,6 @@ const ModernSection: React.FC = () => {
                 className="text-white text-lg underline"
               >
                 Ver no Google Earth
-              </a>
-            </div>
-            <div className="flex justify-center md:justify-start">
-              <a href="https://api.whatsapp.com/send?phone=5534996440078">
-                <button className="bg-green-500 flex justify-center items-center hover:bg-green-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg">
-                  <BiLogoWhatsapp size={23} style={{ marginRight: "10px" }} />
-                  Entre em contato
-                </button>
               </a>
             </div>
           </div>
