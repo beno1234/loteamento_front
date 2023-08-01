@@ -11,12 +11,12 @@ const Feature: React.FC = () => {
     "4.jpeg",
     "5.jpeg",
     "6.jpeg",
-    "MONTAGEM-01.webp",
-    "MONTAGEM-02.webp",
-    "MONTAGEM-03.webp",
-    "MONTAGEM-05.webp",
-    "MONTAGEM-06.webp",
-    "MONTAGEM-SATELITE-FINAL.webp",
+    "MONTAGEM-001.webp",
+    "MONTAGEM-002.webp",
+    "MONTAGEM-003.webp",
+    "MONTAGEM-005.webp",
+    "MONTAGEM-006.webp",
+    "teste.webp",
   ];
   const settings = {
     dots: true,

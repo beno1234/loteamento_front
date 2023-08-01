@@ -3,7 +3,7 @@ const Header = () => {
     <div className="bg-[#102619] relative min-h-screen">
       <div
         style={{
-          backgroundImage: "url(/MONTAGEM-SATELITE-FINAL.webp)",
+          backgroundImage: "url(/teste.webp)",
           backgroundPosition: "center center",
           backgroundSize: "cover",
         }}
