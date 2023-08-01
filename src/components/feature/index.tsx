@@ -5,18 +5,18 @@ import "slick-carousel/slick/slick-theme.css";
 
 const Feature: React.FC = () => {
   const carouselImages = [
-    "1.webp",
-    "2.webp",
-    "3.webp",
-    "4.jpeg",
-    "5.jpeg",
-    "6.jpeg",
     "MONTAGEM-001.webp",
     "MONTAGEM-002.webp",
     "MONTAGEM-003.webp",
     "MONTAGEM-005.webp",
     "MONTAGEM-006.webp",
     "teste.webp",
+    "1.webp",
+    "2.webp",
+    "3.webp",
+    "4.jpeg",
+    "5.jpeg",
+    "6.jpeg",
   ];
   const settings = {
     dots: true,

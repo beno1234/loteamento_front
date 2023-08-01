@@ -1,4 +1,5 @@
 import React from "react";
+import { BiPin } from "react-icons/bi";
 
 const AnotherSection: React.FC = () => {
   return (
@@ -15,11 +16,21 @@ const AnotherSection: React.FC = () => {
               incluem:
             </p>
             <ul className="text-lg text-gray-700">
-              <li>Escola</li>
-              <li>Creches</li>
-              <li>Posto de Saúde</li>
-              <li>Posto de Gasolina</li>
-              <li>Comércios</li>
+              <li className="flex items-center">
+                <BiPin /> Escola
+              </li>
+              <li className="flex items-center">
+                <BiPin /> Creches
+              </li>
+              <li className="flex items-center">
+                <BiPin /> Posto de Saúde
+              </li>
+              <li className="flex items-center">
+                <BiPin /> Posto de Gasolina
+              </li>
+              <li className="flex items-center">
+                <BiPin /> Comércios
+              </li>
             </ul>
           </div>
 
