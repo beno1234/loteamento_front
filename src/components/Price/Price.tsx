@@ -120,7 +120,7 @@ const Price: React.FC = () => {
           <div>
             <button
               type="submit"
-              className="w-full px-6 py-3 mt-4 text-white bg-blue-500 rounded-lg hover:bg-blue-600 transition-colors duration-300"
+              className="w-full px-6 py-3 mt-4 text-white bg-[#4d8a3f] rounded-lg hover:bg-blue-600 transition-colors duration-300"
             >
               Enviar
             </button>

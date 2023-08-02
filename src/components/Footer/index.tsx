@@ -29,7 +29,7 @@ const Footer = () => {
           </p>
         </div>
         <div className="flex flex-col md:flex-row justify-center mx-auto text-center">
-          <div className="mb-4 md:w-1/2 flex flex-col  justify-center">
+          <div className="mb-4 md:w-1/2 flex flex-col lg:items-center justify-center">
             <div className="flex flex-col data-contact">
               <div className="flex items-center mb-2">
                 <AiOutlineEnvironment className="text-2xl mr-2" />
@@ -42,11 +42,11 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="mb-4 md:w-1/2 flex flex-col  justify-center">
+          <div className="mb-4 md:w-1/2 flex flex-col lg:items-center justify-center">
             <div className="flex flex-col data-contact">
               <div className="flex items-center mb-2">
                 <AiOutlineMail className="text-2xl mr-2" />
-                <p className="text-base md:text-xl ">
+                <p className="text-base md:text-xl">
                   financeiro@empreendimentoscardeal.com.br
                 </p>
               </div>
