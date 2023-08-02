@@ -19,7 +19,7 @@ const Header = () => {
                 className="mx-auto lg:w-[35%] w-[75%] mb-0"
                 alt="Logo Amazonas"
               />
-              <h2 className="text-white text-2xl font-bold ">
+              <h2 className="text-white text-3xl font-bold ">
                 O lugar perfeito para construir os seus sonhos. <br />
                 Lançamento em breve!
               </h2>
