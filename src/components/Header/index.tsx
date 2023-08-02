@@ -16,10 +16,10 @@ const Header = () => {
             <div className="mb-0">
               <img
                 src="/logoAmazonas2.png"
-                className="mx-auto lg:w-[35%] w-[85%] mb-0"
+                className="mx-auto lg:w-[35%] w-[75%] mb-0"
                 alt="Logo Amazonas"
               />
-              <h2 className="text-white text-4xl font-bold ">
+              <h2 className="text-white text-2xl font-bold ">
                 O lugar perfeito para construir os seus sonhos. <br />
                 Lançamento em breve!
               </h2>
