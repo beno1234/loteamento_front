@@ -11,12 +11,12 @@ const Header = () => {
       >
         <div className="corner-shapes"></div>
         <div className="absolute inset-0 bg-black opacity-50"></div>
-        <div className="relative    ">
+        <div className="relative">
           <div className="mx-auto text-center">
             <div className="mb-0">
               <img
                 src="/logoAmazonas2.png"
-                className="mx-auto w-[35%] mb-0"
+                className="mx-auto w-[85%] mb-0"
                 alt="Logo Amazonas"
               />
               <h2 className="text-white text-4xl font-bold ">
@@ -30,7 +30,7 @@ const Header = () => {
               </div>
               <div className="mx-auto  w-56 mt-2 rounded-lg shadow-xl">
                 <h3 className="bg-[#4d8a3f] font-montserrat p-1 text-white text-3xl">
-                  A PARTIR DE <br />
+                  DE <br />
                   <span className="text-5xl">180m² a 450m²</span>
                 </h3>
               </div>
