@@ -18,17 +18,10 @@ const NewSection: React.FC = () => {
 
   const settings = {
     dots: false,
+    arrows: false,
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-        },
-      },
-    ],
   };
 
   const isMobile = window.innerWidth <= 768;
