@@ -45,7 +45,7 @@ const Footer = () => {
           <div className="mb-4 md:w-1/2 flex flex-col lg:items-center justify-center">
             <div className="flex flex-col data-contact">
               <div className="flex items-center mb-2">
-                <AiOutlineMail className="lg:text-2xl mr-2 text-2xl" />
+                <AiOutlineMail className="lg:text-2xl mr-2 text-base" />
                 <p className="text-sm md:text-xl">
                   financeiro@empreendimentoscardeal.com.br
                 </p>
