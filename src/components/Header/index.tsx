@@ -30,7 +30,7 @@ const Header = () => {
               </div>
               <div className="mx-auto  w-56 mt-2 rounded-lg shadow-xl">
                 <h3 className="bg-[#4d8a3f] font-montserrat p-1 text-white text-3xl">
-                  A PARTIR DE <br />
+                  DE <br />
                   <span className="text-5xl">180m² a 450m²</span>
                 </h3>
               </div>
