@@ -33,7 +33,7 @@ const Footer = () => {
             <div className="flex flex-col data-contact">
               <div className="flex items-center mb-2">
                 <AiOutlineEnvironment className="text-2xl mr-2" />
-                <p className="text-xl">Av. Mal. Deodoro, 375 - Sobradinho</p>
+                <p className="text-base">Av. Mal. Deodoro, 375 - Sobradinho</p>
               </div>
               <div className="flex items-center">
                 <AiOutlinePhone className="text-2xl mr-2" />
