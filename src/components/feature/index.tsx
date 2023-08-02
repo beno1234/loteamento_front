@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 const Feature: React.FC = () => {
   const carouselImages = [
-    "Mapa3D-COMPRESS.png",
+    "Mapa3D-COMPRESS.webp",
     "MONTAGEM-001.webp",
     "MONTAGEM-002.webp",
     "MONTAGEM-003.webp",

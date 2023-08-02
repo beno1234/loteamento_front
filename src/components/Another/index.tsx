@@ -36,7 +36,7 @@ const AnotherSection: React.FC = () => {
 
           <div className="md:w-1/2 mt-8 md:mt-0">
             <img
-              src="/MONTAGEM-001.webp"
+              src="/Mapa3D-COMPRESS.webp"
               alt="Loteamento"
               className="rounded-lg shadow-lg mx-auto md:mx-0"
               style={{ maxWidth: "100%" }}
