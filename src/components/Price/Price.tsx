@@ -66,7 +66,7 @@ const Price: React.FC = () => {
         <h2 className="text-white mb-4 font-bold">
           Inscreva-se no formulário abaixo para ser informado das últimas
           notícias sobre o Residencial Amazonas e aproveitar as condições
-          especiais de lançamento !
+          especiais de lançamento!
         </h2>
         <form className="space-y-4 md:space-y-6" onSubmit={handleSubmit}>
           <div>
